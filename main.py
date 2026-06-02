@@ -8,3 +8,8 @@ print(num_list)
 ## Running the same loop using list comprehension
 new_list = [item + 1 for item in num]
 print(new_list)
+
+## list comprehension with condition
+names = ["Kaju", "Tim", "Johnny", "Jill", "Jack", "Danny", "Jonathan"]
+short_names = [name for name in names if len(name) < 5]
+print(short_names)
